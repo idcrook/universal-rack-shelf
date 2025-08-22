@@ -1,4 +1,5 @@
 {
+    "fileFormatVersion": "1",
     "parameterSets": {
         "design default values": {
             "front_plate_corder_radius": "2",
@@ -39,8 +40,7 @@
             "shelf_size": "[148, 30.5, 100]",
             "shelf_thickness": "3",
             "shelf_top_depth": "20",
-            "shelf_top_thickness": "7",
-            "u_height": "44.5"
+            "shelf_top_thickness": "7"
         },
         "unifi_us-8-60w": {
             "front_plate_corder_radius": "2",
@@ -81,9 +81,50 @@
             "shelf_size": "[148, 30.5, 100]",
             "shelf_thickness": "3",
             "shelf_top_depth": "20",
-            "shelf_top_thickness": "7",
-            "u_height": "44.5"
+            "shelf_top_thickness": "7"
+        },
+        "YS25-0402": {
+            "front_plate_corder_radius": "2.5000000000000004",
+            "front_plate_thickness": "3.5",
+            "keystone_left_count": "0",
+            "keystone_left_format": "square",
+            "keystone_left_height": "18",
+            "keystone_left_indent_thickness": "1.5",
+            "keystone_left_indent_width": "0",
+            "keystone_left_position": "shelf",
+            "keystone_left_spacing": "10",
+            "keystone_left_width": "15",
+            "keystone_right_count": "1",
+            "keystone_right_format": "square",
+            "keystone_right_height": "18",
+            "keystone_right_indent_thickness": "1.5",
+            "keystone_right_indent_width": "0",
+            "keystone_right_position": "shelf",
+            "keystone_right_spacing": "13",
+            "keystone_right_width": "15",
+            "notch": "none",
+            "notch_size": "[110, 5, 15]",
+            "rack_size": "10",
+            "rack_units": "auto",
+            "rail_hole_diameter": "6",
+            "rail_hole_elongated": "false",
+            "rail_hole_position": "corner",
+            "rail_overlap": "15.875",
+            "rail_overlap_depth": "0.5",
+            "shelf_hex_diameter": "8",
+            "shelf_hex_offset": "[0, 1]",
+            "shelf_hex_wall": "2",
+            "shelf_hole_corner_radius": "0",
+            "shelf_screw": "2",
+            "shelf_screw_1": "[23.5, 37.5, 3, 8]",
+            "shelf_screw_2": "[108.5, 37.5, 3, 8]",
+            "shelf_screw_3": "[10, 10, 3, 8]",
+            "shelf_screw_4": "[10, 10, 3, 8]",
+            "shelf_screw_5": "[10, 10, 3, 8]",
+            "shelf_size": "[133, 33, 66]",
+            "shelf_thickness": "3",
+            "shelf_top_depth": "18",
+            "shelf_top_thickness": "5"
         }
-    },
-    "fileFormatVersion": "1"
+    }
 }

@@ -8,10 +8,10 @@
     License: CC BY-NC-SA 4.0 https://creativecommons.org/licenses/by-nc-sa/4.0/
     Copyright: Dan Malm 2024
     URL: https://github.com/wildegnux/universal-rack-shelf
-   
+
     Inspired from:
         https://www.printables.com/model/128644-unifi-us-8-10-rack-mount
-    
+
     Honeycomb library by Gael Lafond:
         https://www.thingiverse.com/thing:2484395
  */
@@ -22,7 +22,7 @@ rack_size = 10; // [5:20]
 // Thickness of front plate
 front_plate_thickness = 3.5;
 // Corner radius for front plate (0 for no rounded corners)
-front_plate_corder_radius = 0;
+front_plate_corder_radius = 0.1;
 // Width of overlap over the rail
 rail_overlap = 15.875;
 // Depth of overlap over the rail
@@ -187,7 +187,7 @@ difference() {
                                             translate([2.75,0,0])
                                             circle(d=rail_hole_diameter, $fn=200);
                                         }
-                                    } 
+                                    }
                                     else
                                     {
                                         #circle(d=rail_hole_diameter, $fn=200);
@@ -349,8 +349,8 @@ difference() {
     }
     // Notch
     if(notch != "none") {
-        notch_offset = 
-            notch == "left" ? rack_width/2 + shelf_size.x/2 - notch_size.x - shelf_hole_corner_radius : 
+        notch_offset =
+            notch == "left" ? rack_width/2 + shelf_size.x/2 - notch_size.x - shelf_hole_corner_radius :
             notch == "right" ? rack_width/2 - shelf_size.x/2 + shelf_hole_corner_radius :
             /*center*/ rack_width/2 - notch_size.x/2;
         translate([notch_offset, rack_height/2 + shelf_size.y/2, notch_size.z]) {
