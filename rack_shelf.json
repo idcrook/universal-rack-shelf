@@ -83,8 +83,8 @@
             "shelf_top_depth": "20",
             "shelf_top_thickness": "7"
         },
-        "YS25-0402": {
-            "front_plate_corder_radius": "2.5000000000000004",
+        "sodola_sl902-swtg124as": {
+            "front_plate_corder_radius": "2.5",
             "front_plate_thickness": "3.5",
             "keystone_left_count": "0",
             "keystone_left_format": "square",
